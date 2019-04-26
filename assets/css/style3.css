@@ -74,11 +74,8 @@ a:active{
     
     background-image: url("../images/interlaced.png");
     background-color:#ffffff;
- /*   padding:10px;*/
     top: 15px;
-  /*  bottom:0; */
     width: 100%; 
-  /*  position: absolute; */
     overflow: auto;
     min-height:100%;
     margin-bottom:-40px;
@@ -166,11 +163,22 @@ border-color:#dddddd;
 
 .footer{
     
-    
-  /*  padding: 10px;*/
+
     clear: both;
     background:#4aaaa5;
  
     width: 100%;
 
+}
+
+.copyright{
+    background:grey;
+    color:white;
+    height:30px;
+    position:relative;
+    top:10px;
+    text-align:center;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
 }

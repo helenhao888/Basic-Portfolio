@@ -128,17 +128,26 @@ button:active{
   }
   
   .footer, .wholebody:after{
-    height:50px;
+    height:40px;
   }
 
 .footer{
     
-    
-    padding: 10px;
+  
     clear: both;
     background:#4aaaa5;
-  /*  top: 600px;
-    position: relative;*/
     width: 100%;
 
+}
+
+.copyright{
+    background:grey;
+    color:white;
+    height:30px;
+    position:relative;
+    top:10px;
+    text-align:center;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
 }
