@@ -20,7 +20,7 @@ html,body{
     float:left;
     padding:10px;
     margin-left:170px;
-  
+   
     height:50px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size:32px;
@@ -68,13 +68,14 @@ a:active{
 }
 
 
+
 /*backgound color is used when background image is unavailable*/
 .wholebody{
     
     background-image: url("../images/interlaced.png");
     background-color:#ffffff;
  /*   padding:10px;*/
-    top: 75px;
+    top: 15px;
   /*  bottom:0; */
     width: 100%; 
   /*  position: absolute; */
@@ -94,39 +95,63 @@ h2{
 background-color:#ffffff;
 padding:30px;
 position:relative;
-top:20px;
-bottom:20px;
+top:10px;
+/*bottom:10px;*/
 left:170px;
 width:900px;
+
 border-color:#dddddd;
 
 }
 
-.myimg{
-    float:left;
-    padding:30px;
-    
-}
+
 .maincontent{
-     
-     font-size:24px;
-     color:#777777;
+    width:70%;
 }
 
-/*contact page*/
-
-
-button:hover{
-    background-color:yellow;
-    
+.reserve{
+    width:30%;
 }
 
 
-button:active{
-    color:red;
+/*portfolio page*/
+.row{
+    margin:8px -16px;
 }
 
+.row, 
+.row> .column
+{
+    padding:4px 8px;
+}
 
+.column{
+    float:left;
+    width:35%;
+    margin:8px;
+}
+
+/*clear floats after rows*/
+.row::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.content{
+    background-color:white;
+    padding:5px;
+    width:170px;
+ }
+
+.hthree{
+    background-color:#4aaaa5;
+    color:white;
+    position:relative;
+    margin-top:-35px;
+    text-align:center;
+ 
+}
 
 
 /*common*/
@@ -140,8 +165,9 @@ button:active{
   }
 
 .footer{
-       
-    padding: 10px;
+    
+    
+  /*  padding: 10px;*/
     clear: both;
     background:#4aaaa5;
  
