@@ -73,14 +73,11 @@ a:active{
     
     background-image: url("../images/interlaced.png");
     background-color:#ffffff;
- /*   padding:10px;*/
-    top: 75px;
-  /*  bottom:0; */
+     top: 75px;
     width: 100%; 
-  /*  position: absolute; */
     overflow: auto;
     min-height:100%;
-    margin-bottom:-50px;
+    margin-bottom:-40px;
     font-family:"Arial', 'Helvetica Neue', Helvetica, sans-serif";
      }
      
@@ -98,7 +95,6 @@ top:20px;
 bottom:20px;
 left:170px;
 width:900px;
-/*height:80%;*/
 border-color:#dddddd;
 
 }
@@ -106,7 +102,13 @@ border-color:#dddddd;
 
 
 /*contact page*/
-
+button{
+background-color:#4aaaa5;
+font-weight:bold;
+color:white;
+padding:10px;
+border:0px;
+}
 
 button:hover{
     background-color:yellow;
@@ -118,7 +120,9 @@ button:active{
     color:red;
 }
 
-
+.messageBox{
+    height:120px;
+} 
 
 
 /*common*/

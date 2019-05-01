@@ -73,11 +73,9 @@ a:active{
     
     background-image: url("../images/interlaced.png");
     background-color:#ffffff;
- /*   padding:10px;*/
+
     top: 75px;
-  /*  bottom:0; */
     width: 100%; 
-  /*  position: absolute; */
     overflow: auto;
     min-height:100%;
     margin-bottom:-40px;
